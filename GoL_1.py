@@ -1,4 +1,9 @@
 import sys, getopt, os, copy, time, threading
+from pycallgraph import PyCallGraph
+from pycallgraph.output import GraphvizOutput
+
+with PyCallGraph(output=GraphvizOutput()):
+    code_to_profile()
 #from multiprocessing import Process
 
 #Creating input matrix iMat as a list() of size l(number of rows)
