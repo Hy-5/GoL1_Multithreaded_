@@ -1,4 +1,3 @@
-# Ismael Coulibaly December 2020
 # GoL1_Multithreaded_
 
 Multithreaded Game of Life simulation - limited to 100 iterations - Python
