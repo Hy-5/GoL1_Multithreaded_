@@ -153,7 +153,6 @@ def iterations():
 
 def main(argv):
     start=time.time()
-    print("Project :: R11382145")
     inputfile = ''
     outputfile = ''
     global threadCount
